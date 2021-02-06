@@ -1,0 +1,10 @@
+server:
+  port: 9595
+
+
+management:
+  endpoints:
+    web:
+      base-path: /actuators
+      exposure:
+        include: health,info,refresh

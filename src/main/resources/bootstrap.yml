@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: saber-service
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        format: FILES
+        prefix: saber-service
+        enabled: true
+        name: application
+        default-context: application
+        watch:
+          delay: 1
+    config:
+      allow-override: true
+      override-system-properties: false

@@ -1,0 +1,12 @@
+[
+	{
+		"key": "saber-service/application-dev.yml",
+		"flags": 0,
+		"value": "c2VydmljZToKICAgZW52OiBkZXY="
+	},
+	{
+		"key": "saber-service/application.yml",
+		"flags": 0,
+		"value": "c2VydmljZToKICBpcDogMTAuMzkuMzU2LjE3MgogIHBvcnQ6IDQ0NDQ0CiAgZW52OiBkZWZhdWx0"
+	}
+]
